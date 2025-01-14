@@ -18,7 +18,7 @@ Rails.application.routes.draw do
   delete "/users/:id", to: "users#destroy"
 
   resources :products
-  root "users#index"
+  root "products#index"
 
   # Render dynamic PWA files from app/views/pwa/* (remember to link manifest in application.html.erb)
   # get "manifest" => "rails/pwa#manifest", as: :pwa_manifest
