@@ -27,8 +27,8 @@
 #       "yes": yup
 #       enabled: "ON"
 
-en:
+fr:
   hello: "Hello world"
   products:
     index:
-      product_information: "Product Information"
+      product_information: "Informations sur le produit"
